@@ -19,8 +19,7 @@ DOI: [https://doi.org/10.1016/j.compind.2025.104228](https://doi.org/10.1016/j.c
    # Read data
   dir1 = '/content/sample_data/Data'
   dir2 = '/content/sample_data/Label'
-  # dir3 = '/content/sample_data/Feature'
-  # Generate and sort the list of data files
+
   data_files = sorted([os.path.join(dir1, f) for f in os.listdir(dir1) if f.endswith('.xlsx')])
-  # Generate and sort the list of label files
+
   label_files = sorted([os.path.join(dir2, f) for f in os.listdir(dir2) if f.endswith('.xlsx')])
